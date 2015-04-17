@@ -32,6 +32,8 @@ make clean
 --enable-libvorbis \
 --enable-libvpx \
 --enable-libtheora \
+--enable-libfdk-aac \
+--enable-nonfree \
 --enable-fontconfig \
 --enable-pthreads \
 --disable-debug \

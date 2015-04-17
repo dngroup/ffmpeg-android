@@ -29,6 +29,7 @@ do
   ./libvorbis_build.sh $i $BASEDIR 1 || exit 1
   ./libvpx_build.sh $i $BASEDIR 1 || exit 1
   ./libtheora_build.sh $i $BASEDIR 1 || exit 1
+  ./fdk-aac_build.sh $i $BASEDIR 1 || exit 1
   ./ffmpeg_build.sh $i $BASEDIR 0 || exit 1
 done
 
