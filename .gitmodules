@@ -16,3 +16,6 @@
 [submodule "opus"]
 	path = opus
 	url = git://git.opus-codec.org/opus.git
+[submodule "libvpx"]
+	path = libvpx
+	url = http://git.chromium.org/webm/libvpx.git

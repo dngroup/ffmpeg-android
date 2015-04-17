@@ -30,6 +30,7 @@ make clean
 --enable-libmp3lame \
 --enable-libopus \
 --enable-libvorbis \
+--enable-libvpx \
 --enable-fontconfig \
 --enable-pthreads \
 --disable-debug \
