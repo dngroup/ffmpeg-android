@@ -10,6 +10,7 @@ make clean
   --target=armv7-android-gcc \
   --disable-examples \
   --sdk-path=${ANDROID_NDK} \
+  --disable-runtime-cpu-detect \
   --prefix="${TOOLCHAIN_PREFIX}" || exit 1
 
 make -j${NUMBER_OF_CORES} install || exit 1
