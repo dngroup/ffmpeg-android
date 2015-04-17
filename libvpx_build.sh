@@ -6,22 +6,11 @@ pushd libvpx
 
 make clean
 
-case $1 in
-  armeabi-v7a | armeabi-v7a-neon)
-    HOST=arm-linux
-  ;;
-  x86)
-    HOST=i686-linux
-  ;;
-esac
-
 ./configure \
-  --with-pic \
-  --with-sysroot="$NDK_SYSROOT" \
-  --host="$HOST" \
-  --enable-static \
-  --prefix="${TOOLCHAIN_PREFIX}" \
-  --disable-shared || exit 1
+  --target=armv7-android-gcc \
+  --disable-examples \
+  --sdk-path=${ANDROID_NDK} \
+  --prefix="${TOOLCHAIN_PREFIX}" || exit 1
 
 make -j${NUMBER_OF_CORES} install || exit 1
 
