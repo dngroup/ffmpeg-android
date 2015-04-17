@@ -6,7 +6,7 @@ if [[ -z "$ANDROID_NDK_ROOT_PATH" ]]; then
   echo "You need to set ANDROID_NDK environment variable, please check instructions"
   exit
 fi
-ANDROID_API_VERSION=21
+ANDROID_API_VERSION=19
 NDK_TOOLCHAIN_ABI_VERSION=4.9
 
 NUMBER_OF_CORES=$(nproc)
