@@ -21,6 +21,7 @@ esac
   --host="$HOST" \
   --enable-static \
   --prefix="${TOOLCHAIN_PREFIX}" \
+  --disable-examples \
   --disable-shared || exit 1
 
 make -j${NUMBER_OF_CORES} install || exit 1
