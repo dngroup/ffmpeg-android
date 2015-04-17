@@ -31,6 +31,7 @@ make clean
 --enable-libopus \
 --enable-libvorbis \
 --enable-libvpx \
+--enable-libtheora \
 --enable-fontconfig \
 --enable-pthreads \
 --disable-debug \
