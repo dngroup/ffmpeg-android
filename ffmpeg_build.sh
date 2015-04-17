@@ -28,6 +28,7 @@ make clean
 --enable-libfreetype \
 --enable-libfribidi \
 --enable-libmp3lame \
+--enable-libopus \
 --enable-fontconfig \
 --enable-pthreads \
 --disable-debug \
